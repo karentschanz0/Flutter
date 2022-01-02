@@ -1,6 +1,6 @@
 # flutter_complete_guide
 
-A new Flutter project.
+My first app with Flutter ! A little quizz who calculate the score.
 
 ## Getting Started
 
