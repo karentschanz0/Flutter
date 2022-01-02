@@ -28,9 +28,20 @@ class _MyAppState extends State<MyApp> {
  
   @override
   Widget build(BuildContext context) {
+
     var questions = [
-      'What is your favorite color ?',
-      'What is your favortie animal ?',
+      {
+        'questionText': 'What is your favorite color ?',
+        'answers': ['Blue', 'Yellow', 'Green', 'Red'],
+      },
+      {
+        'questionText': 'What is your favorite animal ?',
+        'answers': ['Dog', 'Cat', 'Rabbit', 'Turtle'],
+      },
+      {
+        'questionText': 'What is your favorite food ?',
+        'answers': ['Italian', 'Korean', 'Japanese'],
+      },
     ];
 
     return MaterialApp(home: Scaffold(
